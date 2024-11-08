@@ -1,0 +1,70 @@
+.logo {
+height: 81px;
+width: auto;
+}
+.mobile-logo{
+    height: 90px;
+    width: auto;
+    margin-bottom: -12px;
+}
+
+h1 {
+    color:black;
+}
+.text-secondary{
+    color: white !important;
+}
+.bg-primary{
+    background-color:#00b4d8 !important;
+}
+.btn-primary{
+    background-color: #00b4d8;
+    border-color: #00b4d8;
+}
+.btn-secondary{
+    background-color: #0f4c5c;
+    border-color: #0f4c5c;
+}
+.btn-secondary:hover{
+    background-color:  #003947;
+    border-color:  rgb(0, 203, 203);
+}
+.top-heading{
+    color: #00b4d8;
+}
+.about-section {
+    overflow: hidden !important;
+}
+.navbar{
+    padding-left: 0px;
+    padding-right: 15px;
+}
+.navbar-collapse{
+    padding-left: 20px;
+}
+.header-carousel .container {
+    border-left: 15px solid #00b4d8 !important;
+}
+.header-carousel .container::before, .header-carousel .container::after, .page-header .container::before, .page-header .container::after{
+    background: #00b4d8 !important;
+}
+
+@media (max-width: 768px) {
+    .owl-carousel-item p {
+        font-size: 16px !important;
+    }
+}
+
+.banner-btn {
+    padding: 13px 40px !important;
+}
+.col-10{
+    width: 100% !important;
+    padding-left: 0 !important;
+}
+.top-heading {
+    color: #00b4d8 !important;
+}
+.footer-bg{
+    background-color:#003947 !important ;
+}
